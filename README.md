@@ -1,6 +1,11 @@
 # Erdős–Rényi Graph Generator in MapReduce
 
-This is a very basic implementation of a graph generator based on the G(n,p) model of Erdős–Rényi Graphs on the hadoop framework as a MapReduce Job.
+CS543 Course Project
+
+Padmaram Meghwal 1301CS30
+Ritobroto Maitra 1301CS50
+
+This is an implementation of a graph generator based on the G(n,p) model of Erdős–Rényi Graphs on the hadoop framework as a MapReduce Job.
 
 The program uses two map-reduce jobs for execution. The first one populates the output directory with files containing the node names. The second map-reduce takes this as input and creates the adjacency list corresponding to the nodes based on the  G(n,p) model.
 
